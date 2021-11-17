@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* CONTAINER */
+
+#logo {
+    height: 170px;
+    width: 220px;
+    object-fit: cover;
+}
+
+#set {
+    float: right;
+    padding-right: 40px;
+}
+
+#set p{
+    margin-left: 60px;
+}
+
+div.search {
+    padding: 2px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+button.search {
+    width: 60px;
+    border-radius: 10px;
+    background-color: #7ed957;
+}
+
+.number {
+    margin-top: 70px;
+    margin-left: 180px;
+}
+
+ul {
+    margin-left: 190px;
+    margin-top: -60px;
+}
+
+li {
+    display: inline-block;
+    padding: 30px;
+}
+
+li:hover{
+    color: #0166a4;
+}
+
+/* NAV VERTICAL */
+
+nav.nav-vertical {
+    display: grid;
+    width: 220px;
+    height: 400px;
+    text-align: left;
+}
+
+button.text {
+    height: 45px;
+    width: 220px;
+    text-align: left;
+    background-color: #0166a4;
+    border: 1px solid #000000;
+    color: white;
+}
+
+button.text:hover {
+    background-color: #ff914d;
+}
+
+img.fundo {
+    float: right;
+    width: 50%;
+    margin-top: -403px;
+    margin-right: 230px;
+    object-fit: cover;
+}
+
+/* FEATURED PRODUCTS */
+
+#featured-products {
+    position: relative;
+}
+
+h2.featured {
+    border: 1px solid #000000;
+    line-height: 40px;
+    width: 900px;
+    padding-left: 10px;
+}
+
+div.divisions {
+    border: 1px solid #000000;
+    width: 600px;
+}
+
+img.img-suporte {
+    height: 190px;
+    width: 190px;
+}
+
+#products {
+    background: #fafafa;
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    gap: 1px;
+    margin-left: 1px;
+}
+
+div.divisions {
+    display: flex;
+    width: 450px;
+    background: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card {
+    padding-left: 10px;
+}
+
+.more {
+    background-color: #ff914d;
+    border: 1px solid black;
+    color: black;
+    width: 150px;
+    height: 38px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+/* FOOTER AND ASIDE*/
+
+aside {
+    top: 0;
+    right: 0;
+    position: absolute;
+    border: 1px solid #000000;
+    width: 400px;
+    height: 562px;
+}
+
+footer {
+    height: 50px;
+    background-color: #000000;
+    margin-top: 30px;
+}
